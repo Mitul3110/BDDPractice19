@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2104537300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on Argos webpage",
+            "match": {
+              "location": "steps.SearchSteps.user_should_be_on_argos_webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-22T09:48:18.825Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.getproperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2311820400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User searches for Gym product",
+        "description": "",
+        "id": "search-for-a-gym-product;user-searches-for-gym-product",
+        "after": [
+          {
+            "result": {
+              "duration": 295344200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardwon()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 441947100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user accepts cookies",
+            "match": {
+              "location": "steps.SearchSteps.user_accepts_cookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249851900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user searches for \"gym products\" in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gym products\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.SearchSteps.user_searches_for_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3853890100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the search button",
+            "match": {
+              "location": "steps.SearchSteps.user_clicks_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67958200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies gym products on argos page",
+            "match": {
+              "location": "steps.SearchSteps.user_verifies_gym_products_on_argos_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for a gym product",
+    "description": "",
+    "id": "search-for-a-gym-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/search.feature",
+    "tags": []
+  }
+]
